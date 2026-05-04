@@ -18,7 +18,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else'cpu')
 
 start = time.time()
 
-def load_mnist(path, #=r'C:\Users\S.Musavishavazi\ProgrammingProjects\MyPersonalImplementation\Chapter_12\data',
+def load_mnist(path, #=r'C:\Users\...\ProgrammingProjects\MyPersonalImplementation\...\data',
                kind): #='train'):
     #loading MNIST data from `path
     labels_path = os.path.join(path, 
